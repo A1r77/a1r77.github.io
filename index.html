@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="边缘社（edgebug）服务器列表" />
+  <title>边缘社（edgebug）服务器列表</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Chakra+Petch:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="atmosphere" aria-hidden="true"></div>
+  <canvas id="quantum-canvas" aria-hidden="true"></canvas>
+  <canvas id="projection-canvas" aria-hidden="true"></canvas>
+  <div class="noise-layer" aria-hidden="true"></div>
+
+  <main class="shell">
+    <header class="hero">
+      <p class="eyebrow">EDGEBUG.CN / SERVER DIRECTORY</p>
+      <div class="hero-title-wrap">
+        <div class="brand-stack">
+          <div class="community-row">
+            <p class="community-label">边缘社</p>
+            <span class="community-edgebug">EDGEBUG</span>
+          </div>
+          <h1>服务器列表</h1>
+        </div>
+      </div>
+      <p class="subtitle">打开 CS2 控制台，或点击进入服务器。</p>
+    </header>
+
+    <section class="server-grid" aria-label="服务器列表">
+      <article class="server-card">
+        <h2>HNS 服务器</h2>
+        <p class="server-command">控制台: connect edgebug.cn</p>
+        <div class="command-actions">
+          <button class="copy-btn" data-command="connect edgebug.cn">复制控制台指令</button>
+          <a class="copy-btn secondary" href="steam://connect/edgebug.cn:27015">进入服务器</a>
+        </div>
+      </article>
+
+      <article class="server-card">
+        <h2>刀服</h2>
+        <p class="server-command">控制台: connect edgebug.cn:27016</p>
+        <div class="command-actions">
+          <button class="copy-btn" data-command="connect edgebug.cn:27016">复制控制台指令</button>
+          <a class="copy-btn secondary" href="steam://connect/edgebug.cn:27016">进入服务器</a>
+        </div>
+      </article>
+
+      <article class="server-card">
+        <h2>滑翔服 Surf</h2>
+        <p class="server-command">控制台: connect edgebug.cn:27017</p>
+        <div class="command-actions">
+          <button class="copy-btn" data-command="connect edgebug.cn:27017">复制控制台指令</button>
+          <a class="copy-btn secondary" href="steam://connect/edgebug.cn:27017">进入服务器</a>
+        </div>
+      </article>
+
+      <article class="server-card">
+        <h2>滑翔对抗</h2>
+        <p class="server-command">控制台: connect edgebug.cn:27018</p>
+        <div class="command-actions">
+          <button class="copy-btn" data-command="connect edgebug.cn:27018">复制控制台指令</button>
+          <a class="copy-btn secondary" href="steam://connect/edgebug.cn:27018">进入服务器</a>
+        </div>
+      </article>
+
+      <article class="server-card">
+        <h2>跳狙飞人</h2>
+        <p class="server-command">控制台: connect edgebug.cn:27019</p>
+        <div class="command-actions">
+          <button class="copy-btn" data-command="connect edgebug.cn:27019">复制控制台指令</button>
+          <a class="copy-btn secondary" href="steam://connect/edgebug.cn:27019">进入服务器</a>
+        </div>
+      </article>
+    </section>
+
+    <footer class="site-footer" aria-label="社区信息">
+      <p>社区Q群: 870553345</p>
+    </footer>
+  </main>
+
+  <script defer src="./main.js"></script>
+</body>
+</html>
+
