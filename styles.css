@@ -120,36 +120,38 @@ body {
 
 .community-row {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
+  flex-wrap: wrap;
   gap: 10px;
 }
 
 .community-label {
   margin: 0;
   font-family: "Orbitron", sans-serif;
-  font-size: clamp(1.05rem, 2vw, 1.4rem);
-  letter-spacing: 0.08em;
+  font-size: clamp(2.05rem, 5.2vw, 3.5rem);
+  letter-spacing: 0.05em;
+  line-height: 1.05;
   color: #dfe6ef;
 }
 
 .community-edgebug {
   font-family: "Orbitron", sans-serif;
-  font-size: clamp(0.72rem, 1.1vw, 0.92rem);
+  font-size: clamp(1.05rem, 2vw, 1.4rem);
   letter-spacing: 0.18em;
   color: rgba(222, 232, 246, 0.9);
   border: 1px solid rgba(214, 224, 238, 0.28);
-  padding: 2px 8px 1px;
+  padding: 4px 10px 3px;
   border-radius: 999px;
 }
 
 .hero h1 {
   margin: 0;
   font-family: "Orbitron", sans-serif;
-  font-size: clamp(2.05rem, 5.2vw, 3.5rem);
-  letter-spacing: 0.05em;
-  line-height: 1.05;
+  font-size: clamp(1.05rem, 2vw, 1.4rem);
+  letter-spacing: 0.08em;
+  line-height: 1.2;
   text-transform: none;
-  text-shadow: 0 0 22px rgba(204, 212, 224, 0.24);
+  text-shadow: 0 0 12px rgba(204, 212, 224, 0.18);
 }
 
 .subtitle {
@@ -226,9 +228,11 @@ body {
 .server-card h2 {
   margin: 0;
   font-family: "Orbitron", sans-serif;
-  font-size: 1rem;
+  font-size: clamp(0.88rem, 1.45vw, 1rem);
   font-weight: 600;
   letter-spacing: 0.04em;
+  line-height: 1.38;
+  overflow-wrap: anywhere;
 }
 
 .server-command {
@@ -293,6 +297,13 @@ body {
   color: var(--ink-dim);
   font-size: 0.92rem;
   letter-spacing: 0.05em;
+}
+
+.site-footer .footer-note {
+  margin-top: 8px;
+  font-size: 0.84rem;
+  line-height: 1.6;
+  color: rgba(197, 206, 217, 0.95);
 }
 
 @keyframes riseIn {
